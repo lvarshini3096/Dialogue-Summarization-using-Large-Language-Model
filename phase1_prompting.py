@@ -34,7 +34,7 @@ def run_prompt_engineering_baseline(model, tokenizer, dataset, example_indices):
         print(DASH_LINE)
         print(f'MODEL GENERATION - ZERO SHOT:\n{output}\n')
 
-    # --- 1.2 Few-Shot Inference Demo ---
+    # --- Few-Shot Inference Demo ---
     print(DASH_LINE)
     print("--- 1.2 Few-Shot Inference Demo ---")
     
