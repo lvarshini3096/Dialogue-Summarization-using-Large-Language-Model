@@ -10,7 +10,7 @@ The pipeline is built using the **FLAN-T5-base** model and the **DialogSum** dat
 
 ---
 
-## Project Phases and Core Concepts
+### Project Phases and Core Concepts
 
 | **Phase** | **Technique** | **Goal** | **Key Concepts** |
 |------------|---------------|-----------|------------------|
@@ -20,7 +20,7 @@ The pipeline is built using the **FLAN-T5-base** model and the **DialogSum** dat
 
 ---
 
-## Project Structure
+### Project Structure
 
 | **File** | **Description** | **Role in Pipeline** |
 |-----------|-----------------|----------------------|
@@ -34,7 +34,7 @@ The pipeline is built using the **FLAN-T5-base** model and the **DialogSum** dat
 
 ---
 
-## Setup and Installation
+### Setup and Installation
 
 ### **Prerequisites**
 - **Python:** 3.9 or later  
@@ -42,7 +42,7 @@ The pipeline is built using the **FLAN-T5-base** model and the **DialogSum** dat
 
 ---
 
-### Step 1: Clone the Repository**
+### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/your-username/llm-dialogue-pipeline.git
 cd llm-dialogue-pipeline
