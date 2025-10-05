@@ -14,7 +14,7 @@ def run_peft_evaluation(original_model, instruct_model, peft_model, tokenizer, d
     print("PHASE 2: PEFT FINE-TUNING EVALUATION")
     print(DASH_LINE)
 
-    # --- 2.1 Qualitative Evaluation (Human) ---
+    # --- Qualitative Evaluation (Human) ---
     index = 200
     dialogue = dataset['test'][index]['dialogue']
     human_baseline_summary = dataset['test'][index]['summary']
@@ -46,7 +46,7 @@ def run_peft_evaluation(original_model, instruct_model, peft_model, tokenizer, d
     print(DASH_LINE)
 
 
-    # --- 2.2 Quantitative Evaluation (Simulated ROUGE) ---
+    # --- Quantitative Evaluation (Simulated ROUGE) ---
     print("--- QUANTITATIVE COMPARISON (ROUGE Scores - Simulated Full Dataset) ---")
     
     # Simulated ROUGE results
