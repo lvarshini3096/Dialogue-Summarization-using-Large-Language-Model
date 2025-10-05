@@ -1,5 +1,3 @@
-# Dialogue-Summarization-using-Large-Language-Model
-
 ## Dialogue Summarization Pipeline: Prompting, PEFT, and RLHF Detoxification
 
 This project presents a **complete Large Language Model (LLM) pipeline** for **Dialogue Summarization**, integrating three major generative AI techniques:
@@ -44,17 +42,17 @@ The pipeline is built using the **FLAN-T5-base** model and the **DialogSum** dat
 
 ---
 
-### **Step 1: Clone the Repository**
+### Step 1: Clone the Repository**
 ```bash
 git clone https://github.com/your-username/llm-dialogue-pipeline.git
 cd llm-dialogue-pipeline
 ```
-### **Step 2: Install Dependencies
+### Step 2: Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### **Step 3: Acquire Checkpoints
+### Step 3: Acquire Checkpoints
 
 The demo requires model checkpoints to simulate pre-trained and fine-tuned states.
 If real checkpoints are unavailable, create placeholder directories:
@@ -64,7 +62,7 @@ mkdir flan-dialogue-summary-checkpoint
 mkdir peft-dialogue-summary-checkpoint-from-s3
 ```
 
-### **Usage
+### Usage
 
 To run the entire pipeline—from prompting to PEFT to RLHF alignment—execute:
 
