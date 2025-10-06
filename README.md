@@ -44,7 +44,7 @@ The pipeline is built using the **FLAN-T5-base** model and the **DialogSum** dat
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-username/llm-dialogue-pipeline.git
+git clone https://github.com/lvarshini3096/llm-dialogue-pipeline.git
 cd llm-dialogue-pipeline
 ```
 ### Step 2: Install Dependencies
